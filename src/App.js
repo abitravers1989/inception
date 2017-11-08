@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import customers from './customers.json';
 import './styles.scss';
+import { Form, FormControl, Button } from 'react-bootstrap';
+
 
 const CustomerRow = ({customer}) => (
   <tr>
     <td>{customer.first_name} {customer.last_name}</td>
-    <td>{customer.age}</td>
-
     <td>
-      {customer.dominant_traits[0].primary_trait},
+      {customer.dominant_traits[0].primary_trait}
     </td>
   <td>
     {customer.dominant_traits[0].level}
@@ -36,8 +36,6 @@ class App extends Component {
           <thead>
             <tr>
               <th>Name</th>
-              <th>Age</th>
-
               <th>Primary Trait</th>
               <th>Level</th>
               <th>Secondary Trait</th>
@@ -50,6 +48,13 @@ class App extends Component {
           }
           </tbody>
         </table>
+        <Form inline>
+        <FormControl
+        />
+        <Button>
+        Submit
+        </Button>
+        </Form>
       </div>
     );
   }
