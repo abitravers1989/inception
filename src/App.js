@@ -32,7 +32,7 @@ class App extends Component {
           <h1>Your Customers Mind</h1>
           </div>
         </header>
-        <table>
+        <table class="table table-hover">
           <thead>
             <tr>
               <th>Name</th>
