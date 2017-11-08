@@ -1,6 +1,39 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
+
+.header {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 22px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+table *{
+
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  	font-size: 12px;
+  	margin: 45px;
+  	width: 480px;
+  	text-align: left;
+    border: 1px solid black;
+  	border-collapse: collapse;
+    background-color:#1F2739;
+  	// background: url('http://cdn.instantshift.com/wp-content/uploads/2014/10/human-emotion-powerful-photos-a-02.jpg') 20px 99px no-repeat;
+    padding: 12px;
+  	font-weight: normal;
+  	font-size: 20px;
+  }
+  //
+  // td {
+  //   width: 10%;
+  //   border-collapse: collapse;
+  // }
+  //
+  // th {
+  //   padding: 25px
+  // }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -9,15 +42,11 @@ body {
   background-color:#1F2739;
    background-size: 100% 100%;
   background-image: url("background4.jpg")
-  // background-size: contain;
-  //  height: auto;
-  // // background-repeat:no-repeat;
-  // background-size: 10%
-  // background-position:center;
+
 }
 
 h1 {
-  font-size:3em;
+  font-size:2em;
   font-weight: 400;
   line-height:1em;
   text-align: left;
@@ -42,24 +71,10 @@ body {
   font-weight: 400;
 }
 
-table {
-  * {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-  	font-size: 12px;
-  	margin: 45px;
-  	width: 480px;
-  	text-align: left;
-  	border-collapse: collapse;
-    // background-color:#1F2739;
-  	// background: url('http://cdn.instantshift.com/wp-content/uploads/2014/10/human-emotion-powerful-photos-a-02.jpg') 20px 99px no-repeat;
-    padding: 12px;
-  	font-weight: normal;
-  	font-size: 20px;
-  }
-thead {
-   padding: 9px 12px;
- 	 color: #ffffff;
- 	 border-top: 1px solid #ffffff;
-   font-size: 22px;
- }
-}
+
+// thead {
+//    padding: 9px 12px;
+//  	 color: #ffffff;
+//  	 border-top: 1px solid #ffffff;
+//    font-size: 22px;
+//  }

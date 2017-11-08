@@ -28,8 +28,21 @@ class App extends Component {
     return (
       <div className="app">
         <header>
+        <nav class="navbar-default">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon glyphicon-tree-deciduous"></span>
+                    DataSine - Look Into Your Customers Mind
+                </a>
+            </div>
+
+
+        </div>
+    </nav>
         <div class="header">
-          <h1>Your Customers Mind</h1>
+          <h1>Your Customers</h1>
           </div>
         </header>
         <table class="table table-hover">
