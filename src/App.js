@@ -22,7 +22,7 @@ class App extends Component {
       <div className="app">
         <header>
         <div class="header">
-          <h1>Customer Data</h1>
+          <h1>Your Customers Mind</h1>
           </div>
         </header>
         <table>
