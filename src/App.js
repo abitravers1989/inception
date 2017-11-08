@@ -21,7 +21,9 @@ class App extends Component {
     return (
       <div className="app">
         <header>
+        <div class="header">
           <h1>Customer Data</h1>
+          </div>
         </header>
         <table>
           <thead>
