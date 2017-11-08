@@ -1,0 +1,37 @@
+.app {
+  font-size: 1.2em;
+}
+
+$main_color: #FA34E8;
+$line_color: #CCCDCC;
+
+h1 {
+  color: $main_color;
+  background-color: rgba($main_color, 0.1);
+}
+
+body {
+  	background: url('http://cdn.instantshift.com/wp-content/uploads/2014/10/human-emotion-powerful-photos-a-02.jpg');
+}
+
+
+table {
+  * {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  	font-size: 12px;
+  	margin: 45px;
+  	width: 480px;
+  	text-align: left;
+  	border-collapse: collapse;
+  	// background: url('http://cdn.instantshift.com/wp-content/uploads/2014/10/human-emotion-powerful-photos-a-02.jpg') 20px 99px no-repeat;
+    padding: 12px;
+  	font-weight: normal;
+  	font-size: 14px;
+  	color: #339;
+  }
+ td {
+   padding: 9px 12px;
+ 	color: #669;
+ 	border-top: 1px solid #fff;
+ }
+}
