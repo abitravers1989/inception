@@ -33,7 +33,7 @@ class App extends Component {
 
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
-                    <span class="glyphicon glyphicon glyphicon-tree-deciduous"></span>
+                    <span class="glyphicon glyphicon glyphicon-king "> </span>
                     DataSine - Look Into Your Customers Mind
                 </a>
             </div>
