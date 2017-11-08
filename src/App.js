@@ -4,15 +4,22 @@ import './styles.scss';
 
 const CustomerRow = ({customer}) => (
   <tr>
-    <td>{customer.title} {customer.first_name} {customer.last_name}</td>
-    <td>{customer.profession}</td>
-    <td>{customer.has_children ? "Y" : "N"}</td>
+    <td>{customer.first_name} {customer.last_name}</td>
+    <td>{customer.age}</td>
+
     <td>
-      {customer.dominant_traits[0].level}
       {customer.dominant_traits[0].primary_trait},
-      {customer.dominant_traits[1].level}
-      {customer.dominant_traits[1].secondary_trait},
     </td>
+  <td>
+    {customer.dominant_traits[0].level}
+      </td>
+    <td>
+    {customer.dominant_traits[1].secondary_trait}
+
+    </td>
+    <td>
+      {customer.dominant_traits[1].level}
+        </td>
   </tr>
 );
 
@@ -29,9 +36,12 @@ class App extends Component {
           <thead>
             <tr>
               <th>Name</th>
-              <th>Profession</th>
-              <th>Children</th>
-              <th>Traits</th>
+              <th>Age</th>
+
+              <th>Primary Trait</th>
+              <th>Level</th>
+              <th>Secondary Trait</th>
+              <th>Level</th>
             </tr>
           </thead>
           <tbody>
