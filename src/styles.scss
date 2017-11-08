@@ -5,13 +5,15 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.42em;
-  color:#A7A1AE;
+  color:#ffffff;
   background-color:#1F2739;
+   background-size: 100% 100%;
   background-image: url("background4.jpg")
-  // height:160px;
-  //   padding-left:280px;
-  //   padding-top:50px;
-  //   width:470px;
+  // background-size: contain;
+  //  height: auto;
+  // // background-repeat:no-repeat;
+  // background-size: 10%
+  // background-position:center;
 }
 
 h1 {
@@ -19,7 +21,7 @@ h1 {
   font-weight: 400;
   line-height:1em;
   text-align: left;
-  color: #4DC3FA;
+  color: #ffffff;
 }
 
 header {
@@ -48,6 +50,7 @@ table {
   	width: 480px;
   	text-align: left;
   	border-collapse: collapse;
+    // background-color:#1F2739;
   	// background: url('http://cdn.instantshift.com/wp-content/uploads/2014/10/human-emotion-powerful-photos-a-02.jpg') 20px 99px no-repeat;
     padding: 12px;
   	font-weight: normal;
@@ -55,7 +58,7 @@ table {
   }
  thead {
    padding: 9px 12px;
- 	 color: #669;
- 	 border-top: 1px solid #fff;
+ 	 color: #ffffff;
+ 	 border-top: 1px solid #ffffff;
  }
 }
