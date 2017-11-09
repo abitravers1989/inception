@@ -27,6 +27,17 @@ a {
   line-height: 24px
 }
 
+table *{
+
+    cursor: pointer;
+  td {
+    color: $black;
+    &:hover {
+      color: $red
+    }
+   }
+  }
+
 @mixin translateY($e){
   -webkit-transform: translateY($e);
    -moz-transform: translateY($e);

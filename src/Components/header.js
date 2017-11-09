@@ -4,13 +4,8 @@ class Header extends Component {
   render() {
     return (
       <header>
-      <div className = "logo">
-         logo
-         </div>
-
       <nav class="navbar-default">
       <div class="container-fluid">
-
           <div class="navbar-header">
               <a class="navbar-brand" href="https://datasine.com/">
               <ul>
@@ -21,10 +16,10 @@ class Header extends Component {
               </ul>
               </a>
           </div>
-
-
       </div>
-  </nav>
+    </nav>
+       <h1> Your Customers </h1>
+  
       </header>
     );
   }
