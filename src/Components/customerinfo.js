@@ -1,16 +1,10 @@
 import React, { Component } from 'react';
 import customers from '../customers.json';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from 'react-router-dom';
 
 
 const CustomerRow = ({customer}) => (
   <tr>
-    <td><Link to="/customer">{customer.first_name} {customer.last_name}
-     </Link></td>
+    <td>{customer.first_name} {customer.last_name}</td>
     <td>
       {customer.dominant_traits[0].primary_trait}
     </td>
@@ -24,11 +18,17 @@ const CustomerRow = ({customer}) => (
     <td>
       {customer.dominant_traits[1].level}
         </td>
+        <td>
+          {customer.high_propensity_products}
+            </td>
+            <td>
+              {customer.income}
+                </td>
   </tr>
 );
 
 
-class Table extends Component {
+class CustomerInfo extends Component {
   render() {
     return (
       <table class="table table-hover">
@@ -51,4 +51,4 @@ class Table extends Component {
   }
 }
 
-export default Table;
+export default CustomerInfo;

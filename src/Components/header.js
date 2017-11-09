@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import {
+  Link
+} from 'react-router-dom';
 
 class Header extends Component {
   render() {
@@ -11,7 +14,8 @@ class Header extends Component {
               <ul>
               <div className ="Company">
                   <span class="glyphicon glyphicon glyphicon-king "> </span>
-                  <a href="https://datasine.com/" >DataSine - Look Into Your Customers Mind </a>
+                  <Link to= "https://datasine.com/">
+                  <a>DataSine - Look Into Your Customers Mind </a> </Link>
                   </div>
               </ul>
               </a>
@@ -19,7 +23,7 @@ class Header extends Component {
       </div>
     </nav>
        <h1> Your Customers </h1>
-  
+
       </header>
     );
   }

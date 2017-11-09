@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { Form, FormControl, Button } from 'react-bootstrap';
+import {
+  Link
+} from 'react-router-dom';
 
 
 class Search extends Component {
@@ -9,7 +12,7 @@ class Search extends Component {
       <FormControl
       />
       <Button>
-      Submit
+      Search
       </Button>
       </Form>
     );

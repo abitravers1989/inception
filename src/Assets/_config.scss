@@ -6,38 +6,6 @@ $red: #ff1755;
 
 @import url(https://fonts.googleapis.com/css?family=Carrois+Gothic+SC:300,400,700);
 
-body {
-  font-family: 'Carrois Gothic SC', sans-serif;
-  font-size: 18px;
-  color: $black;
-  font-weight: 400;
-  font-style: normal;
-}
-
-a {
-  // @mixin transition(.4s ease-in-out)
-  text-decoration: none;
-
-  &:hover {
-    color: $red
-  }
-}
-
-.container-fluid {
-  line-height: 24px
-}
-
-table *{
-
-    cursor: pointer;
-  td {
-    color: $black;
-    &:hover {
-      color: $red
-    }
-   }
-  }
-
 @mixin translateY($e){
   -webkit-transform: translateY($e);
    -moz-transform: translateY($e);
@@ -49,3 +17,38 @@ table *{
    -moz-transition:$e;
     transition:$e;
 }
+
+body {
+  font-family: 'Carrois Gothic SC', sans-serif;
+  font-size: 18px;
+  color: $black;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  @include transition(.4s ease-in-out);
+  text-decoration: none;
+
+  &:hover {
+    color: $red;
+    @include transition(.4s ease-in-out)
+  }
+}
+
+.container-fluid {
+  line-height: 24px
+}
+
+table *{
+
+
+    cursor: pointer;
+  td {
+    color: $black;
+    &:hover {
+      color: $red;
+      @include transition(.4s ease-in-out)
+    }
+   }
+  }
