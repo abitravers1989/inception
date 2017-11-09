@@ -28,6 +28,7 @@ const CustomerRow = ({customer}) => (
 );
 
 
+
 class CustomerInfo extends Component {
   render() {
     return (

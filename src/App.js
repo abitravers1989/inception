@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import customers from './customers.json';
 import './Assets/styles.scss';
 import Header from './Components/header'
 import Table from './Components/table'
 import Search from './Components/search'
 import CustomerInfo from './Components/customerinfo'
+import DataSine from './Components/datasine'
 
 import {
   BrowserRouter as Router,
@@ -23,6 +23,7 @@ class App extends Component {
             <Route exact path='/' component={Table}/>
               <Route exact path='/' component={Search}/>
             <Route exact path='/customer' component={CustomerInfo}/>
+            <Route exact path='/dataSine' component={DataSine}/>
 
       </div>
       </Router>
