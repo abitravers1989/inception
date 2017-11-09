@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import customers from './customers.json';
-import './styles.scss';
+import './Assets/styles.scss';
 import { Form, FormControl, Button } from 'react-bootstrap';
 import Header from './Components/header'
 

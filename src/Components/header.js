@@ -18,9 +18,6 @@ class Header extends Component {
                   <span class="glyphicon glyphicon glyphicon-king "> </span>
                   <a href="https://datasine.com/" >DataSine - Look Into Your Customers Mind </a>
                   </div>
-                  // <li className= "last">
-                  //      <a href="https://i.ytimg.com/vi/6nkVUqOx-QE/maxresdefault.jpg">Agreeability </a>
-                  // </li>
               </ul>
               </a>
           </div>
