@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import customers from './customers.json';
 import './styles.scss';
 import { Form, FormControl, Button } from 'react-bootstrap';
+import Header from './Components/header'
 
 
 const CustomerRow = ({customer}) => (
@@ -27,20 +28,10 @@ class App extends Component {
   render() {
     return (
       <div className="app">
+            <Header />
+
         <header>
-        <nav class="navbar-default">
-        <div class="container-fluid">
 
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <span class="glyphicon glyphicon glyphicon-king "> </span>
-                    DataSine - Look Into Your Customers Mind
-                </a>
-            </div>
-
-
-        </div>
-    </nav>
         <div class="header">
           <h1>Your Customers</h1>
           </div>
@@ -61,6 +52,7 @@ class App extends Component {
           }
           </tbody>
         </table>
+
         <Form inline>
         <FormControl
         />
@@ -68,6 +60,7 @@ class App extends Component {
         Submit
         </Button>
         </Form>
+
       </div>
     );
   }
