@@ -56,7 +56,14 @@ table *{
     padding: 22px;
   	font-weight: normal;
   	font-size: 20px;
-
+    text-decoration: none;
+    cursor: pointer;
+  td {
+    color: $black;
+    &:hover {
+      color: $red
+    }
+  }
   }
   //
   // td {
