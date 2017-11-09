@@ -9,10 +9,8 @@ class Search extends Component {
   render() {
     return (
       <Form inline>
-      <FormControl
-      />
       <Button>
-      Search
+      Add More Customers
       </Button>
       </Form>
     );
