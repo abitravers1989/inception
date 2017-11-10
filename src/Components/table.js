@@ -36,11 +36,11 @@ class Table extends Component {
       <table class="table table-hover" >
         <thead>
           <tr>
-            <th>Name <FontAwesome.FaHeartbeat /> < /th>
+            <th> Name < /th>
             <th>Primary Trait</th>
             <th>Level</th>
             <th>Secondary Trait</th>
-            <th>Level</th>
+            <th className="level">Level</th>
           </tr>
         </thead>
         <tbody>

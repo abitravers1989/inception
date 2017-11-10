@@ -83,6 +83,16 @@ table *{
     text-decoration: none;
     cursor: pointer;
     overflow: scroll;
+    th {
+      &:hover {
+        color: $black;
+          }
+      &.level {
+          color: #1F2739;
+
+      }
+
+  }
   td {
     color: $black;
     &:hover {
