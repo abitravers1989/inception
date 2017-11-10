@@ -3,10 +3,7 @@ import './Assets/styles.scss';
 import Header from './Components/header'
 import Table from './Components/table'
 import AddCustomers from './Components/addmorecustomers'
-import CustomerInfo from './Components/customerinfo'
 import DataSine from './Components/datasine'
-import Toggle from './Components/toggle'
-
 
 import {
   BrowserRouter as Router,
@@ -23,8 +20,6 @@ class App extends Component {
             <Header />
             <Route exact path='/' component={Table}/>
               <Route exact path='/' component={AddCustomers}/>
-              <Route exact path='/' component={Toggle}/>
-            <Route exact path='/customer' component={CustomerInfo}/>
             <Route exact path='/dataSine' component={DataSine}/>
 
       </div>

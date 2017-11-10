@@ -40,7 +40,7 @@ class Table extends Component {
             <th>Primary Trait</th>
             <th>Level</th>
             <th>Secondary Trait</th>
-            <th className="level">Level</th>
+            <th>Level</th>
           </tr>
         </thead>
         <tbody>

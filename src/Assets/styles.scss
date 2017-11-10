@@ -38,6 +38,7 @@ header {
   margin-top: 0px;
   margin-left: 2px;
   display: block;
+  color: $navy;
 
 
   nav,
@@ -45,6 +46,7 @@ header {
   nav ul li{
     margin: 0;
     padding: 0;
+
   }
   nav {
     position: absolute;
@@ -64,12 +66,12 @@ header {
 }
 
 .navbar {
-  background-color: $black
+  background-color: $grey;
 }
 
 table *{
     font-family: 'Carrois Gothic SC', sans-serif;
-  	font-size: 12px;
+  	font-size: 20px;
   	margin: 45px;
   	width: 480px;
   	text-align: left;
@@ -83,9 +85,10 @@ table *{
     text-decoration: none;
     cursor: pointer;
     overflow: scroll;
+
     th {
       &:hover {
-        color: $black;
+        color: #ffffff;
           }
       &.level {
           color: #1F2739;
@@ -95,6 +98,9 @@ table *{
   td {
 
     overflow: scroll;
+    color: #FAFAFA;
+    font-size: 17px;
+    font-weight: 400;
     &:hover {
       color: $red
     }

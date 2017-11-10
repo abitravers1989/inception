@@ -17,7 +17,7 @@ class Header extends Component {
               <div className ="Company">
                   <span> <FontAwesome.FaCogs />  </span>
                   <Link to= "/datasine">
-                  <a>  DataSine - Look Into Your Customers Mind </a> </Link>
+                  <a> DataSine - Look Into Your Customers Mind </a> </Link>
                   </div>
               </ul>
               </a>
