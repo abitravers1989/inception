@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {
   Link
 } from 'react-router-dom';
+import * as FontAwesome from 'react-icons/lib/fa'
+
 
 class Header extends Component {
   render() {
@@ -13,9 +15,9 @@ class Header extends Component {
               <a class="navbar-brand" href="https://datasine.com/">
               <ul>
               <div className ="Company">
-                  <span class="glyphicon glyphicon glyphicon-king "> </span>
+                  <span> <FontAwesome.FaCogs />  </span>
                   <Link to= "/datasine">
-                  <a>DataSine - Look Into Your Customers Mind </a> </Link>
+                  <a>  DataSine - Look Into Your Customers Mind </a> </Link>
                   </div>
               </ul>
               </a>
