@@ -91,10 +91,10 @@ table *{
           color: #1F2739;
 
       }
-
   }
   td {
-    color: $black;
+
+    overflow: scroll;
     &:hover {
       color: $red
     }
@@ -128,6 +128,12 @@ body {
   background-color:#1F2739;
   background-size: 100% 100%;
   background-image: url("background.jpg");
+  background-image: repeat-y;
+  background-size: cover;
+   width: 99%;
+   height: 460px;
+
+   resize: both;
   padding: 2%;
 
 }

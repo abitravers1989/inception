@@ -5,7 +5,7 @@ import {
 } from 'react-router-dom';
 
 
-class Search extends Component {
+class AddCustomers extends Component {
   render() {
     return (
       <Form inline>
@@ -19,4 +19,4 @@ class Search extends Component {
   }
 }
 
-export default Search;
+export default AddCustomers;

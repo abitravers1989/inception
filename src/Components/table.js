@@ -45,7 +45,7 @@ class Table extends Component {
         </thead>
         <tbody>
         {
-          customers.slice(0, 10).map(c => <CustomerRow customer={c}/>)
+          customers.map(c => <CustomerRow customer={c}/>)
         }
         </tbody>
       </table>
