@@ -3,12 +3,11 @@ import customers from '../customers.json';
 import {
   Link
 } from 'react-router-dom';
+import * as FontAwesome from 'react-icons/lib/fa'
 
 
 const CustomerRow = ({customer}) => (
-  <tr data-toggle="collapse" data-target="#demo1" className="accordion-toggle">
-
-
+  <tr>
      <td>
        {customer.first_name} {customer.last_name}
 
@@ -31,12 +30,13 @@ const CustomerRow = ({customer}) => (
 
 
 class Table extends Component {
+
   render() {
     return (
-      <table class="table table-hover">
+      <table class="table table-hover" >
         <thead>
           <tr>
-            <th>Name< /th>
+            <th>Name FontAwesome.FaHeartbeat < /th>
             <th>Primary Trait</th>
             <th>Level</th>
             <th>Secondary Trait</th>
@@ -50,9 +50,10 @@ class Table extends Component {
         </tbody>
       </table>
 
-
     );
   }
 }
+
+document.get
 
 export default Table;

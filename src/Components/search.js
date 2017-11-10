@@ -9,9 +9,11 @@ class Search extends Component {
   render() {
     return (
       <Form inline>
+      <Link to="customerinfo.js">
       <Button>
       Add More Customers
       </Button>
+      </Link>
       </Form>
     );
   }
