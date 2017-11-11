@@ -1,19 +1,30 @@
 # Inception - A Look Into Your Customers' Mind
 
-Data for those fascinated in the human mind. Tech Test for DataSine.
+Data for those fascinated in the human mind.
+
+Tech Test for DataSine. Focus was on how to make the table visually pleasing so the data was more accessible. Idea was to then implement functionality which made the table dynamic. 
+
 
 # Usage
 
+Open your terminal and type in the following commands:
+
 `````
-npm install
-npm start
+$ git clone https://github.com/abitravers1989/inception.git
+$ npm install
+$ npm start
 `````
 
 # Test
 
+If you want to be bitterly disappointed open your terminal and type in:
+
 ``````
 npm test
 ``````
+
+IM SORRY! I am a massive fan of TDD especially when working with larger data sets! At the moment I really can't trust it is accessing the customer file and displaying it correctly. However I only had one day to teach myself CSS, SCSS, Bootstrap and React. This means I didn't have time to look into how to test in React. We were told to prioritise how the table looked so I focused on this.
+
 
 # Improvements:
 

@@ -1,3 +1,33 @@
+import React, { Component } from 'react';
+import * as FontAwesome from 'react-icons/lib/fa'
+
+
+class CustomerInfo {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // import React, { Component } from 'react';
 // import customers from '../customers.json';
 //
